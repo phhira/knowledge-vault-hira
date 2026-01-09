@@ -99,3 +99,30 @@ body {
   justify-content: center;
   margin: auto;
 }
+
+/* ===== SECOND BRAIN ===== */
+.second-brain {
+  display: flex;
+  gap: 60px;
+  padding: 80px 60px;
+}
+
+.brain-img img {
+  width: 100%;
+}
+
+.second-brain ul {
+  margin-top: 20px;
+}
+
+/* ===== EARLY ACCESS ===== */
+.early {
+  background: #f7f5f1; /* 👉 Figma bg */
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.small {
+  font-size: 14px;
+  margin-top: 5px;
+}
