@@ -126,3 +126,37 @@ body {
   font-size: 14px;
   margin-top: 5px;
 }
+
+/* ===== FOOTER ===== */
+footer {
+  background: #071f33; /* 👉 footer bg color */
+  color: #fff;
+  padding: 40px 60px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 20px 0;
+  opacity: 0.3;
+}
+
+
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.social-icons a:hover img {
+  opacity: 0.7;
+}
