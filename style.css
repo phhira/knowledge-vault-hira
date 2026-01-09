@@ -35,3 +35,34 @@ body {
   list-style: none;
   gap: 30px;
   margin: auto; /* 👉 menu center করার জন্য এটা থাকবেই */
+
+
+  /* ===== HERO / BANNER ===== */
+.hero {
+  background: url(images/assets/hero-bg.png) center/cover no-repeat;
+  /* 👉 hero-bg.jpg Figma অনুযায়ী ছবি */
+  padding: 120px 20px; /* 👉 height adjust */
+  text-align: center;
+  color: #fff;
+}
+
+.hero span {
+  color: #3f7f5f; /* 👉 highlight color */
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #fff; /* 👉 Figma অনুযায়ী border color */
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8; /* hover effect (mandatory) */
+}
