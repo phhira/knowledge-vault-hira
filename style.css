@@ -35,6 +35,7 @@ body {
   list-style: none;
   gap: 30px;
   margin: auto; /* 👉 menu center করার জন্য এটা থাকবেই */
+}
 
 
   /* ===== HERO / BANNER ===== */
@@ -65,4 +66,36 @@ body {
 
 .btn:hover {
   opacity: 0.8; /* hover effect (mandatory) */
+}
+
+
+/* ===== NOTES ===== */
+.notes {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 25%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px; /* 👉 card radius */
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: #ff5a5a; /* 👉 Figma icon bg color */
+  color: #fff;
+  border-radius: 50%; /* গোল আইকন */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
